@@ -43,7 +43,7 @@ GuardianAI is a **Tauri-based desktop application** that transforms Linux system
 - **Anomaly Detection**: AI identifies suspicious process behavior
 - **Resource Analysis**: Find and fix resource-hogging applications
 
-### 🤖 Task Automation _(Coming Soon)_
+### 🤖 Task Automation
 
 - Script management and scheduling
 - AI-assisted script generation
@@ -96,12 +96,26 @@ Set your API key in the application settings.
 
 Monitor your system's vital signs at a glance with real-time metrics and beautiful charts.
 
-![System Dashboard](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/dashboard.png)
+![System Dashboard](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/dashy.png)
 
 ### AI Chat - Intelligent Assistant
 
 Get instant answers and commands with natural language conversation powered by local AI.
 
 ![AI Chat](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/ai-chat.png)
+
+
+### Automation - Script management and scheduling
+
+AI-assisted script generation, Backup automation, Maintenance routines
+
+![AI Chat](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/automation.png)
+
+### Security Monitoring
+
+Security Dashboard: Comprehensive view of your system's security posture
+
+![AI Chat](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/secMon.png)
+
 
 ---
