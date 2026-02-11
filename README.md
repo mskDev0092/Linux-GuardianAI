@@ -59,7 +59,6 @@ GuardianAI is a **Tauri-based desktop application** that transforms Linux system
 
 ---
 
-
 ## ⚙️ Configuration
 
 ### Setting Up Local AI
@@ -89,33 +88,42 @@ If local AI isn't available, you can use:
 
 Set your API key in the application settings.
 
+## 📸 Showcase
 
-## 📸 Screenshots
-
-### Dashboard - System Overview
+### 📊 System Dashboard
 
 Monitor your system's vital signs at a glance with real-time metrics and beautiful charts.
+![System Dashboard](assets/dashboard.png)
+_Real-time monitoring of CPU, Memory, Disk, and Temperature._
 
-![System Dashboard](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/dashy.png)
+### 🛡️ Security & Hardening
 
-### AI Chat - Intelligent Assistant
+Comprehensive view of your system's security posture with AI-driven audit analysis.
+![Security Dashboard](assets/security-dash.png)
+_Lynis audits and AppArmor profile management._
+
+### 🤖 AI-Powered Assistant
 
 Get instant answers and commands with natural language conversation powered by local AI.
+![AI Chatcast](assets/ai-chatcast.webm)
+_AI explaining scripts and suggesting system fixes._
 
-![AI Chat](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/ai-chat.png)
+### ⚙️ Automation & Scripting
 
+AI-assisted script generation, backup automation, and maintenance routines.
+![Automation](assets/automation.png)
+_Manage and schedule complex system tasks with ease._
 
-### Automation - Script management and scheduling
+### 🔍 Real-time Monitoring
 
-AI-assisted script generation, Backup automation, Maintenance routines
+Deep dive into processes and network activity with live updates.
+![Real-time Monitor](assets/realtimemonitor.png)
+_Track every process and network connection in real-time._
 
-![AI Chat](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/automation.png)
+### 💻 Advanced Terminal & Settings
 
-### Security Monitoring
-
-Security Dashboard: Comprehensive view of your system's security posture
-
-![AI Chat](https://github.com/mskDev0092/Linux-GuardianAI/blob/main/assets/secMon.png)
-
+Full control over the AI engine and system integration.
+![Terminal and Settings](assets/terminal.png)
+_Customizable AI backends and integrated terminal access._
 
 ---
