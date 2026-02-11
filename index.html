@@ -30,7 +30,8 @@
             </a>
             <div class="nav-links">
                 <a href="#features">Features</a>
-                <a href="#preview">Preview</a>
+                <a href="#preview">Showcase</a>
+                <a href="#config">Setup</a>
                 <a href="#download">Download</a>
                 <a href="https://github.com/mskDev0092/Linux-GuardianAI" target="_blank">GitHub</a>
             </div>
@@ -159,6 +160,51 @@
         </div>
     </section>
 
+    <!-- AI Configuration Section -->
+    <section id="config" class="section-padding" style="background: rgba(0,0,0,0.2);">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>AI Engine <span class="gradient-text">Setup</span></h2>
+                <p>GuardianAI is designed for maximum privacy, supporting both local-first models and blazing-fast cloud APIs.</p>
+            </div>
+
+            <div class="feature-grid">
+                <!-- LM Studio -->
+                <div class="feature-card fade-in-up">
+                    <div style="color:var(--primary-color); font-size: 2rem; margin-bottom: 20px;">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3>LM Studio</h3>
+                    <p>The recommended way for local AI. Load any GGUF model, start the server, and GuardianAI will auto-connect.</p>
+                </div>
+
+                <!-- Jan.ai -->
+                <div class="feature-card fade-in-up">
+                    <div style="color:var(--secondary-color); font-size: 2rem; margin-bottom: 20px;">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                    </div>
+                    <h3>Jan.ai</h3>
+                    <p>Open-source alternative for local inference. Simple setup with OpenAI-compatible local server endpoints.</p>
+                </div>
+
+                <!-- Groq / Cloud -->
+                <div class="feature-card fade-in-up" style="border-color: var(--accent-color);">
+                    <div style="color:var(--accent-color); font-size: 2rem; margin-bottom: 20px;">
+                        <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <h3>Groq / Cloud</h3>
+                    <p>Need speed? Use Groq for near-instant inference. Also supports OpenAI and Anthropic Claude via API keys.</p>
+                </div>
+            </div>
+
+            <div class="code-terminal fade-in-up" style="margin-top: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                <span style="color: var(--text-muted);">// Groq Quick Connection Example</span><br>
+                <span style="color: var(--primary-color);">Endpoint:</span> https://api.groq.com/openai/v1<br>
+                <span style="color: var(--primary-color);">Model:</span> llama-3.1-70b-versatile
+            </div>
+        </div>
+    </section>
+
     <!-- Download Section -->
     <section id="download" class="section-padding download-section">
         <div class="container">
@@ -195,8 +241,25 @@
                 </div>
             </div>
             
+            <div class="installation-tips fade-in-up">
+                <div class="tip-box">
+                    <h4><i class="fa-solid fa-bolt"></i> Quick Start: AppImage</h4>
+                    <div class="code-terminal">
+                        <code>chmod +x ./GuardianAI_0.0.5_amd64.AppImage</code><br>
+                        <code>./GuardianAI_0.0.5_amd64.AppImage</code>
+                    </div>
+                </div>
+                <div class="tip-box">
+                    <h4><i class="fa-brands fa-ubuntu"></i> Quick Start: .DEB</h4>
+                    <div class="code-terminal">
+                        <code>sudo apt install ./GuardianAI_0.0.5_amd64.deb</code>
+                    </div>
+                </div>
+            </div>
+
             <div style="margin-top: 40px; font-family: var(--font-code); color: var(--text-muted); font-size: 0.9rem;">
                 <p><i class="fa-solid fa-terminal"></i> Verify integrity: checksums available on the <a href="https://github.com/mskDev0092/Linux-GuardianAI/releases" style="color:var(--primary-color)">Releases Page</a>.</p>
+                <p style="margin-top: 10px;"><i class="fa-solid fa-bolt"></i> For high-speed inference, use <strong>Groq API</strong> with endpoint: <code style="color:var(--primary-color)">https://api.groq.com/openai/v1</code></p>
             </div>
         </div>
     </section>

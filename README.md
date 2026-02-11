@@ -59,6 +59,41 @@ GuardianAI is a **Tauri-based desktop application** that transforms Linux system
 
 ---
 
+## 🚀 Installation
+
+GuardianAI is distributed in multiple formats to suit your preference.
+
+### 📦 AppImage (Universal Linux)
+
+Ideal for quick use without installation.
+
+1. Download the `.AppImage` from the [Releases](https://github.com/mskDev0092/Linux-GuardianAI/releases) page.
+2. Make it executable:
+   ```bash
+   chmod +x GuardianAI_0.0.5_amd64.AppImage
+   ```
+3. Run it:
+   ```bash
+   ./GuardianAI_0.0.5_amd64.AppImage
+   ```
+
+### 🛠️ Debian/Ubuntu (.deb)
+
+Recommended for deep system integration.
+
+1. Download the `.deb` package from the [Releases](https://github.com/mskDev0092/Linux-GuardianAI/releases) page.
+2. Install using `apt` (handles dependencies automatically):
+   ```bash
+   sudo apt install ./GuardianAI_0.0.5_amd64.deb
+   ```
+3. Alternatively, use `dpkg`:
+   ```bash
+   sudo dpkg -i GuardianAI_0.0.5_amd64.deb
+   sudo apt install -f # Fix any missing dependencies
+   ```
+
+---
+
 ## ⚙️ Configuration
 
 ### Setting Up Local AI
@@ -82,11 +117,15 @@ GuardianAI works best with local AI models for maximum privacy and speed.
 
 If local AI isn't available, you can use:
 
+- **Groq API** (Blazing fast inference)
 - OpenAI API
 - Anthropic Claude
 - Other OpenAI-compatible APIs
 
-Set your API key in the application settings.
+**Quick Setup with Groq:**
+Set your Groq API key and use the following endpoint in settings: `https://api.groq.com/openai/v1`
+
+Configure your keys and preferred provider in the application settings.
 
 ## 📸 Showcase
 
