@@ -70,11 +70,11 @@ Ideal for quick use without installation.
 1. Download the `.AppImage` from the [Releases](https://github.com/mskDev0092/Linux-GuardianAI/releases) page.
 2. Make it executable:
    ```bash
-   chmod +x GuardianAI_0.0.7_amd64.AppImage
+   chmod +x GuardianAI_0.0.8_amd64.AppImage
    ```
 3. Run it:
    ```bash
-   ./GuardianAI_0.0.7_amd64.AppImage
+   ./GuardianAI_0.0.8_amd64.AppImage
    ```
 
 ### 🛠️ Debian/Ubuntu (.deb)
@@ -84,11 +84,11 @@ Recommended for deep system integration.
 1. Download the `.deb` package from the [Releases](https://github.com/mskDev0092/Linux-GuardianAI/releases) page.
 2. Install using `apt` (handles dependencies automatically):
    ```bash
-   sudo apt install ./GuardianAI_0.0.7_amd64.deb
+   sudo apt install ./GuardianAI_0.0.8_amd64.deb
    ```
 3. Alternatively, use `dpkg`:
    ```bash
-   sudo dpkg -i GuardianAI_0.0.7_amd64.deb
+   sudo dpkg -i GuardianAI_0.0.8_amd64.deb
    sudo apt install -f # Fix any missing dependencies
    ```
 
